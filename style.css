@@ -1,0 +1,71 @@
+.ab{
+    background-color: rgb(59, 51, 51);
+    width: 100%;
+    height: 100vh;
+    padding-top: 60px;
+    
+        /* For Chrome, Safari, and Opera */
+        background: -webkit-linear-gradient(left, rgba(128,128,128,1) 0%, rgba(0,0,0,1) 100%);
+        /* For Firefox */
+        background: -moz-linear-gradient(left, rgba(128,128,128,1) 0%, rgba(0,0,0,1) 100%);
+        /* For Internet Explorer */
+        background: linear-gradient(to right, rgba(128,128,128,1) 0%, rgba(0,0,0,1) 100%);
+    
+        background-image: url(images/ai-generated-8659548_640.jpg);
+       
+           
+            /* Set the size of the background image */
+            background-size: cover; /* This will make the image cover the entire container */
+            /* You can also use 'contain' to fit the image within the container without cropping */
+        
+            /* Set the position of the background image */
+            background-position: center; /* This will center the image horizontally and vertically */
+            /* You can also specify values in pixels or percentages */
+        
+            /* Set whether the background image should repeat */
+            background-repeat: no-repeat; /* This will prevent the image from repeating */
+            /* You can use 'repeat-x' or 'repeat-y' to repeat the image horizontally or vertically */
+        }
+        
+        
+
+.center {
+    margin: auto;
+    width: 30%; 
+     border: 3px solid rgb(207, 190, 170);
+    color: aliceblue;
+    padding : 10px;
+    border-radius: 5px;
+    /* background-color: gray; */
+  }
+.c{
+    color: rgb(107, 69, 19);
+    border-color: rgb(10, 3, 3);
+}
+.d{
+    color: black;
+    background-color: black;
+}
+.checkBox-Container{
+width: 100%;
+/* background-color: red; */
+}
+.zz{
+    border: 3px solid #7e9766;
+    border-radius: 3px;
+    width: 60%;
+}
+.row{
+    margin-top: 3px;
+    border: 3px solid #99ad84;
+    border-radius: 5px;
+}
+.xx{
+    margin-top: 8px;
+    border: 3px solid rgb(214, 203, 161);
+    border-radius: 5px;
+}
+.bbb{
+    
+    align-items: center;
+}
